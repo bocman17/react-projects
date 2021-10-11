@@ -152,12 +152,11 @@ Color Generator
   margin-right: 2rem;
 }
 
-input {
-  border-color: transparent;
-  padding: 0.5rem 1rem;
-  font-size: 1.2rem;
-  border-top-left-radius: var(--radius);
-  border-bottom-left-radius: var(--radius);
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 32px;
+	height: 32px;
 }
 .btn {
   background: var(--clr-primary-5);
